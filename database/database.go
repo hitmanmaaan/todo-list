@@ -6,10 +6,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/hitmanmaaan/todo-list/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
+	"todo-list/models"
 )
 
 type Dbinstance struct {
